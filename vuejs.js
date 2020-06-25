@@ -32,9 +32,9 @@ const app = new Vue({
 
       .then(Response => Response.json())
       .then((data)=>{
-            console.log(data);
+     
            this.customers = data;
-           console.log(this.customers);
+     
       })
     },
  
